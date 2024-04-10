@@ -1,0 +1,3 @@
+<!-- Im not too sure what you meant about findings so I'll just talk about my opinino about this assignemnt and my implementations for my methods. -->
+1. As for my findings, this whole activity was actually pretty interesting for me. The main things I think was that it was pretty easy to implement when you understand the logic behin the implementaion, this is pretty much applicable for all of the methods since they used techniques we learned in the first semeter of cs.
+2. For time complexity both methods take O(n^2) with my implementation. This is because I used nested for loops for all of my traversals. 
