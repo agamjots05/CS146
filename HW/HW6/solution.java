@@ -41,6 +41,9 @@ public class solution {
       
     }
     public void print(List<List<Integer>> ret){
+        if(ret.size() == 0){
+            System.out.println("Empty");
+        }
           for (List<Integer> vals : ret){
               for (Integer sol : vals){
                   System.out.print(sol + " ");
@@ -50,10 +53,15 @@ public class solution {
       }
     
     public static void main(String args[]){
+      //Test 1
         solution test1 = new solution();
-        int[] nums = new int[]{-5,0,5,10,-10,0};
+        int[] nums = new int[]{0,1,1};
         List<List<Integer>> sol1 = test1.threeSum(nums);
         test1.print(sol1);
+
+        int[] nums2 = new int[]{-5,0,5,10,-10,0}
+        List<List<Integer>> sol2 = test1.threeSum(nums2);
+        test1.print(sol2);
         
     }
 }
