@@ -59,7 +59,7 @@ public class solution {
         List<List<Integer>> sol1 = test1.threeSum(nums);
         test1.print(sol1);
 
-        int[] nums2 = new int[]{-5,0,5,10,-10,0}
+        int[] nums2 = new int[]{-5,0,5,10,-10,0};
         List<List<Integer>> sol2 = test1.threeSum(nums2);
         test1.print(sol2);
         
